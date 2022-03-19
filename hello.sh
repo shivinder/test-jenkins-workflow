@@ -4,4 +4,4 @@
 echo "Hello from the script ${0}"
 
 # lets test the jenkins env vars in this bash script
-echo "The Jenkins Build number is ${BRANCH_NAME}"
+echo "Env-var from Jenkins ->> ${GIT_COMMITTER_NAME} <<-"
